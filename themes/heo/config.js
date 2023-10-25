@@ -1,21 +1,21 @@
 const CONFIG = {
   HOME_BANNER_ENABLE: true,
 
-  SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  SITE_CREATE_TIME: '2023-10-25', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '点击此处前往柴犬谷屋官方论坛', url: 'https://chaiquan.store' },
+    { title: '访问柴犬谷屋获取更多', url: 'https://www.chaiquan.store' }
   ],
 
   // 英雄区(首页顶部大卡)
-  HERO_TITLE_1: '分享编程',
-  HERO_TITLE_2: '与思维认知',
-  HERO_TITLE_3: 'TANGLY1024.COM',
-  HERO_TITLE_4: '新版上线',
-  HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HERO_TITLE_LINK: 'https://tangly1024.com',
+  HERO_TITLE_1: '关于编程',
+  HERO_TITLE_2: '与人生的一切',
+  HERO_TITLE_3: 'chaiquan.store',
+  HERO_TITLE_4: '论坛上线',
+  HERO_TITLE_5: '点击此处前往我的小店论坛',
+  HERO_TITLE_LINK: 'https://chaiquan.store',
 
   // 英雄区显示三个置顶分类
   HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
@@ -29,14 +29,13 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🔍 柴犬谷屋的老板',
+    '🤝 十三流python程序员',
+    '🏃 即将踏入婚姻的坟墓',
+    '🏠 一条卑微上班狗',
+    '🤖️ 数码科技爱好者'
   ],
-  INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  INFO_CARD_URL: 'https://github.com/Mekako', // 个人资料底部按钮链接
 
   // 用户技能图标
   GROUP_ICONS: [
@@ -99,10 +98,10 @@ const CONFIG = {
   ],
 
   SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  SOCIAL_CARD_TITLE_1: '交流频道',
-  SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  SOCIAL_CARD_TITLE_3: '点击加入社群',
-  SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  SOCIAL_CARD_TITLE_1: '谷圈交流群',
+  SOCIAL_CARD_TITLE_2: '加入我们的qq群讨论分享',
+  SOCIAL_CARD_TITLE_3: '点击加入qq群',
+  SOCIAL_CARD_URL: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Uv6-xCsBU9chGvwUqixbguzEPh3kNDGK&authKey=7m0ks4%2BFA39sW8jpJsKRozQiC6WAxhJszxLLggrgeDph%2FGK9lNSn837NQ%2Fgkenwm&noverify=0&group_code=738531151',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
